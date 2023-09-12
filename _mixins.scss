@@ -1,0 +1,91 @@
+$cor-primaria: #68a911;
+$cor-secundaria: #101820;
+$cor-branco: #fff;
+$cor-preto: #000;
+$cor-cinza: #494949;
+
+@mixin header {
+    height: 300px;
+
+    .header__all {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        &-first {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            #logo {
+                width: 170px;
+            }
+
+            .info {
+                display: flex;
+                gap: 30px;
+
+                .informacoes {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;
+                    grid-template-rows: 1fr 1fr;
+                    justify-items: center;
+                    align-items: center;
+                    grid-template-areas:
+                        'icone p'
+                        'icone spann';
+
+                    i {
+                        grid-area: icone;
+                        font-size: 1.4rem;
+                        color: $cor-primaria;
+                    }
+
+                    p {
+                        grid-area: p;
+                        margin-bottom: 10px;
+                        color: $cor-cinza;
+                        font-weight: 400;
+                    }
+
+                    span {
+                        grid-area: spann;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        &-second {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            padding: 30px 0;
+            background-color: $cor-primaria;
+            border-radius: 20px;
+
+            ul {
+                display: flex;
+                list-style: none;
+                gap: 80px;
+
+                li {
+                    a {
+                        padding: 5px;
+                        border-radius: 10px;
+                        text-decoration: none;
+                        color: $cor-branco;
+                        font-size: 1rem;
+                        font-weight: 600;
+                        transition: .5s;
+                    }
+
+                    a:hover {
+                        color: $cor-secundaria;
+                        background-color: $cor-branco;
+                    }
+                }
+            }
+        }
+    }
+}
