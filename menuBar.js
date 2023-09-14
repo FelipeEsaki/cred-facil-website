@@ -8,5 +8,5 @@ menuIcon.addEventListener('click', () => {
 });
 
 btnFechar.addEventListener('click', () => {
-    menuBar.style.top = '-100%';
+    menuBar.style.top = '-200%';
 })
