@@ -149,6 +149,7 @@ main {
                 width: 100%;
                 height: auto;
                 display: flex;
+                justify-content: space-between;
 
                 input {
                     display: none;
@@ -187,28 +188,25 @@ main {
                     h2 {
                         position: absolute;
                         top: 20%;
-                        left: 50px;
-                        font-size: 2rem;
-                        font-weight: 600;
+                        left: 20px;
+                        @include h2-mobile;
                         color: $cor-branco;
                         z-index: 998;
                     }
 
                     p {
                         position: absolute;
-                        top: 50%;
-                        left: 50px;
-                        font-size: .8rem;
-                        font-weight: 400;
-                        color: $cor-branco;
+                        top: 45%;
+                        left: 20px;
+                        @include p-mobile;
                         z-index: 998;
                     }
 
                     a {
                         @include a-mobile ($cor-primaria, $cor-branco, auto);
                         position: absolute;
-                        top: 70%;
-                        left: 50px;
+                        top: 65%;
+                        left: 20px;
                         z-index: 998;
                     }
 

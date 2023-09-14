@@ -106,6 +106,7 @@ $cor-cinza: #494949;
 }
 
 
+// header mobile
 @mixin header-520 {
     height: 150px;
 
@@ -216,7 +217,7 @@ $cor-cinza: #494949;
     .menu__bar {
         background-color: $cor-primaria;
         position: absolute;
-        top: -100%;
+        top: -200%;
         left: 0;
         display: flex;
         justify-content: center;
@@ -484,7 +485,7 @@ $cor-cinza: #494949;
 
 // mixins mobile
 @mixin h2-mobile {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: $cor-secundaria;
 }

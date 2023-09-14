@@ -290,7 +290,7 @@ main .slider .manual__navigation .manual-btn:hover {
   .header .menu__bar {
     background-color: #68a911;
     position: absolute;
-    top: -100%;
+    top: -200%;
     left: 0;
     display: flex;
     justify-content: center;
@@ -328,6 +328,7 @@ main .slider .manual__navigation .manual-btn:hover {
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: space-between;
   }
   main .slider .slides input {
     display: none;
@@ -359,16 +360,17 @@ main .slider .manual__navigation .manual-btn:hover {
   main .slider .slides .slide h2 {
     position: absolute;
     top: 20%;
-    left: 50px;
-    font-size: 2rem;
+    left: 20px;
+    font-size: 1.5rem;
     font-weight: 600;
+    color: #101820;
     color: #fff;
     z-index: 998;
   }
   main .slider .slides .slide p {
     position: absolute;
-    top: 50%;
-    left: 50px;
+    top: 45%;
+    left: 20px;
     font-size: 0.8rem;
     font-weight: 400;
     color: #fff;
@@ -387,8 +389,8 @@ main .slider .manual__navigation .manual-btn:hover {
     font-weight: 500;
     transition: 0.5s;
     position: absolute;
-    top: 70%;
-    left: 50px;
+    top: 65%;
+    left: 20px;
     z-index: 998;
   }
   main .slider .slides .slide a:hover {
@@ -605,7 +607,7 @@ main .slider .manual__navigation .manual-btn:hover {
     gap: 30px;
   }
   .second__section-conteudo h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #101820;
   }
@@ -756,7 +758,7 @@ main .slider .manual__navigation .manual-btn:hover {
     gap: 50px;
   }
   .third__section .third__section-container .content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #101820;
   }
@@ -1012,7 +1014,7 @@ main .slider .manual__navigation .manual-btn:hover {
     gap: 20px;
   }
   .fifth__section-all-content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #101820;
     color: #fff;
