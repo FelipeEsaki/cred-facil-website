@@ -19,7 +19,10 @@
     <header class="header header__home">
         <section class="header__all">
             <div class="header__all-first">
-                <img class="banner" id="logo" src="assets/Logo horiz cred facil.png" alt="Logo Cred Fácil">
+                <div class="menu">
+                    <img class="banner" id="logo" src="assets/Logo horiz cred facil.png" alt="Logo Cred Fácil">
+                    <i id="menu-icon" class="fa-solid fa-bars"></i>
+                </div>
                 <div class="info">
                     <div class="informacoes telefone">
                         <i class="fa-solid fa-phone"></i>
@@ -41,6 +44,17 @@
 
             <div class="header__all-second">
                 <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Quem somos</a></li>
+                    <li><a href="">Produtos</a></li>
+                    <li><a href="">Crédito Consignado</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="menu__bar" id="menu__bar">
+                <ul class="menu__bar-content">
+                    <i class="fa-solid fa-x" id="close-btn"></i>
                     <li><a href="">Home</a></li>
                     <li><a href="">Quem somos</a></li>
                     <li><a href="">Produtos</a></li>
@@ -149,7 +163,7 @@
             </div>
         </section>
 
-        <section class="third__section">
+        <section class="third__section" id="third">
             <div class="third__section-container">
                 <div class="content">
                     <h2>Processo de aprovação da Cred Fácil</h2>
@@ -172,12 +186,115 @@
                 </div>
             </div>
         </section>
+
+        <section class="fourth__section">
+            <div class="fourth__section-content">
+                <h2>Nossas vantagens!</h2>
+                <div class="fourth__section-content-itens">
+                    <i class="fa-solid fa-star"></i>
+                    <div class="itens-content">
+                        <h3>Melhores Taxas do Mercado</h3>
+                        <p>Contamos com diversos parceiro que nos ajudam a oferecer as melhores taxas do mercado
+                            financeiro.</p>
+                    </div>
+                </div>
+                <div class="fourth__section-content-itens">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                    <div class="itens-content">
+                        <h3>Equipe Especializada</h3>
+                        <p>Profissionais dedicados e especializados para oferecer as melhores condições que se encaixam
+                            no seu perfil.</p>
+                    </div>
+                </div>
+                <div class="fourth__section-content-itens">
+                    <i class="fa-solid fa-rocket"></i>
+                    <div class="itens-content">
+                        <h3>As Melhores Parcerias</h3>
+                        <p>Temos mais de 20 instituições parceiras que ofereceram opções perfeitas para todos os tipos
+                            de perfil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <img class="fourth__section-image" src="assets/vantagens.jpg" alt="Imagem homem de braços cruzados feliz">
+        </section>
+
+        <section class="fifth__section">
+            <div class="fifth__section-all">
+                <div class="fifth__section-all-content">
+                    <h2>Precisando de um financiamento?</h2>
+                    <p>Venha realizar seu sonho, clique em Simule Agora para entrar em contato com a nossa equipe
+                        especializada.</p>
+                </div>
+                <div class="fifth__section-all-link"><a href="#">Simule agora</a></div>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer id="footer">
+        <div class="footer__content">
+            <div class="footer__logo">
+                <img src="assets/Logo cred facil branco.png" alt="Logo Cred Fácil">
+                <p>Cred Facil é uma empresa que agrega diversos segmentos de serviços financeiros como consignado,
+                    empréstimo
+                    pessoal e débito em conta.</p>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footer__menu footer__itens">
+                <span>Menu</span>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Simulação</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer__servicos footer__itens">
+                <span>Serviços</span>
+                <ul>
+                    <li><a href="#">Crédito Consignado</a></li>
+                    <li><a href="#">Financiamento Veicular</a></li>
+                    <li><a href="#">Financiamento Imobiliário</a></li>
+                    <li><a href="#">Limpa Nome</a></li>
+                    <li><a href="#">Crédito Pessoal</a></li>
+                </ul>
+            </div>
+            <div class="footer__contato footer__itens">
+                <span>Contato</span>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <p>Telefone</p>
+                            <span>(11) 9999-9999</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <p>Endereço</p>
+                            <span>São Paulo - SP</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <p>Horário de atendimento</p>
+                            <span>Seg - Sex: 08:00 - 18:00</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
+        <span class="copy"> &copy; Copyright 2023 Direitos Reservados. Proibido cópia total ou parcial do nosso
+            conteúdo.
+            Desenvolvido por Esaki Desenvolvimentos.</span>
     </footer>
 
+    <script src="menuBar.js"></script>
     <script src="script.js"></script>
 </body>
 

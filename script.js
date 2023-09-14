@@ -5,7 +5,6 @@ const btn = document.querySelectorAll('.btn');
 const img = document.querySelector('#imagem-third');
 const paragrafo = document.querySelector('.paragrafo__third');
 
-
 let count = 1;
 document.querySelector('#radio1').checked = true;
 
