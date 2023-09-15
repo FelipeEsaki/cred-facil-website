@@ -1209,6 +1209,391 @@ main .slider .manual__navigation .manual-btn:hover {
     text-align: center;
   }
 }
+.first__section {
+  max-width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.first__section #first__section-img {
+  width: 40%;
+  border-radius: 50%;
+}
+.first__section-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.first__section-content h1 {
+  font-size: 2rem;
+  color: #101820;
+  font-weight: 800;
+}
+.first__section-content p {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+  color: #101820;
+}
+
+.second__section {
+  display: flex;
+  margin: 100px auto;
+}
+.second__section .second-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second__section .second-content span {
+  color: #101820;
+  font-weight: 600;
+}
+.second__section .second-content p {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+  color: #101820;
+}
+
+@media (max-width: 520px) {
+  .first__section {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .first__section #first__section-img {
+    width: 70%;
+    border-radius: 50%;
+  }
+  .first__section-content {
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .first__section-content h1 {
+    font-size: 2rem;
+    color: #101820;
+    font-weight: 800;
+  }
+  .first__section-content p {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    color: #101820;
+  }
+}
+.servicos {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.servicos .servico {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.servicos .servico h2 {
+  font-size: 1.5rem;
+  color: #68a911;
+  text-align: center;
+}
+.servicos .servico p {
+  font-size: 1rem;
+  color: #494949;
+  text-align: center;
+}
+.servicos .servico:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 520px) {
+  .servicos {
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .servicos .servico {
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .servicos .servico img {
+    width: 50px;
+    height: 50px;
+  }
+  .servicos .servico h2 {
+    font-size: 1rem;
+    color: #68a911;
+    text-align: center;
+  }
+  .servicos .servico p {
+    font-size: 0.7rem;
+    color: #494949;
+    text-align: center;
+  }
+  .servicos .servico:hover {
+    transform: scale(1.1);
+  }
+}
+.main__simulacao {
+  background-image: url(assets/pattern.png);
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.main__simulacao .form {
+  max-width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #68a911, #84D916, #A5DF59);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+  border-radius: 20px;
+  gap: 20px;
+}
+.main__simulacao .form .itens {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.main__simulacao .form .itens button {
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+  border-right: 1px solid rgba(200, 200, 200, 0.4);
+  border-top: 1px solid #5a5a5a;
+  border-left: 1px solid #5a5a5a;
+  color: #101820;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.main__simulacao .form .itens label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+.main__simulacao .form .itens input {
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+  border-right: 1px solid rgba(200, 200, 200, 0.4);
+  border-top: 1px solid #5a5a5a;
+  border-left: 1px solid #5a5a5a;
+  color: #101820;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.main__simulacao .form .itens input::-moz-placeholder {
+  color: #101820;
+}
+.main__simulacao .form .itens input::placeholder {
+  color: #101820;
+}
+.main__simulacao .form .itens textarea {
+  resize: none;
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+  border-right: 1px solid rgba(200, 200, 200, 0.4);
+  border-top: 1px solid #5a5a5a;
+  border-left: 1px solid #5a5a5a;
+  color: #101820;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.main__simulacao .form .servicos {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+.main__simulacao .form .servicos button {
+  padding: 5px;
+  background-color: #fff;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main__simulacao .form .servicos button:hover {
+  background-color: #68a911;
+  color: #fff;
+}
+.main__simulacao .form .btn-enviar {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #68a911;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: 0.5s;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+}
+.main__simulacao .form .btn-enviar:hover {
+  background-color: #101820;
+  color: #fff;
+}
+
+@media (max-width: 520px) {
+  .main__simulacao {
+    background-image: url(assets/pattern.png);
+    background-size: cover;
+    padding-bottom: 100px;
+  }
+  .main__simulacao .form {
+    max-width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #68a911, #84D916, #A5DF59);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 20px;
+  }
+  .main__simulacao .form .itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .main__simulacao .form .itens button {
+    border-radius: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+    border-right: 1px solid rgba(200, 200, 200, 0.4);
+    border-top: 1px solid #5a5a5a;
+    border-left: 1px solid #5a5a5a;
+    color: #101820;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .main__simulacao .form .itens label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  .main__simulacao .form .itens input {
+    border-radius: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+    border-right: 1px solid rgba(200, 200, 200, 0.4);
+    border-top: 1px solid #5a5a5a;
+    border-left: 1px solid #5a5a5a;
+    color: #101820;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .main__simulacao .form .itens input::-moz-placeholder {
+    color: #101820;
+  }
+  .main__simulacao .form .itens input::placeholder {
+    color: #101820;
+  }
+  .main__simulacao .form .itens textarea {
+    resize: none;
+    height: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+    border-right: 1px solid rgba(200, 200, 200, 0.4);
+    border-top: 1px solid #5a5a5a;
+    border-left: 1px solid #5a5a5a;
+    color: #101820;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .main__simulacao .form .servicos {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .main__simulacao .form .servicos button {
+    padding: 5px;
+    background-color: #fff;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .main__simulacao .form .servicos button:hover {
+    background-color: #68a911;
+    color: #fff;
+  }
+  .main__simulacao .form .btn-enviar {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #68a911;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.5s;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+  }
+  .main__simulacao .form .btn-enviar:hover {
+    background-color: #101820;
+    color: #fff;
+  }
+}
 * {
   margin: 0;
   padding: 0;
