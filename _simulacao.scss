@@ -27,7 +27,7 @@
                 border-right: 1px solid rgba(200, 200, 200, .4);
                 border-top: 1px solid #5a5a5a;
                 border-left: 1px solid #5a5a5a;
-                color: $cor-secundaria;
+                color: $cor-branco;
                 font-weight: 500;
                 font-size: 1rem;
                 cursor: pointer;
@@ -47,12 +47,12 @@
                 border-right: 1px solid rgba(200, 200, 200, .4);
                 border-top: 1px solid #5a5a5a;
                 border-left: 1px solid #5a5a5a;
-                color: $cor-secundaria;
+                color: $cor-branco;
                 font-size: 1rem;
-                font-weight: 600;
+                font-weight: 400;
 
                 &::placeholder {
-                    color: $cor-secundaria;
+                    color: $cor-branco;
                 }
             }
 
@@ -67,7 +67,7 @@
                 border-left: 1px solid #5a5a5a;
                 color: $cor-secundaria;
                 font-size: 1rem;
-                font-weight: 600;
+                font-weight: 400;
             }
         }
 
@@ -139,7 +139,7 @@
                     border-right: 1px solid rgba(200, 200, 200, .4);
                     border-top: 1px solid #5a5a5a;
                     border-left: 1px solid #5a5a5a;
-                    color: $cor-secundaria;
+                    color: $cor-branco;
                     font-weight: 500;
                     font-size: 1rem;
                     cursor: pointer;
@@ -159,12 +159,12 @@
                     border-right: 1px solid rgba(200, 200, 200, .4);
                     border-top: 1px solid #5a5a5a;
                     border-left: 1px solid #5a5a5a;
-                    color: $cor-secundaria;
+                    color: $cor-branco;
                     font-size: .8rem;
-                    font-weight: 600;
+                    font-weight: 400;
 
                     &::placeholder {
-                        color: $cor-secundaria;
+                        color: $cor-branco;
                     }
                 }
 
@@ -178,9 +178,9 @@
                     border-right: 1px solid rgba(200, 200, 200, .4);
                     border-top: 1px solid #5a5a5a;
                     border-left: 1px solid #5a5a5a;
-                    color: $cor-secundaria;
+                    color: $cor-branco;
                     font-size: .8rem;
-                    font-weight: 600;
+                    font-weight: 400;
                 }
             }
 

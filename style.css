@@ -1399,7 +1399,7 @@ main .slider .manual__navigation .manual-btn:hover {
   border-right: 1px solid rgba(200, 200, 200, 0.4);
   border-top: 1px solid #5a5a5a;
   border-left: 1px solid #5a5a5a;
-  color: #101820;
+  color: #fff;
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
@@ -1417,15 +1417,15 @@ main .slider .manual__navigation .manual-btn:hover {
   border-right: 1px solid rgba(200, 200, 200, 0.4);
   border-top: 1px solid #5a5a5a;
   border-left: 1px solid #5a5a5a;
-  color: #101820;
+  color: #fff;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 .main__simulacao .form .itens input::-moz-placeholder {
-  color: #101820;
+  color: #fff;
 }
 .main__simulacao .form .itens input::placeholder {
-  color: #101820;
+  color: #fff;
 }
 .main__simulacao .form .itens textarea {
   resize: none;
@@ -1438,7 +1438,7 @@ main .slider .manual__navigation .manual-btn:hover {
   border-left: 1px solid #5a5a5a;
   color: #101820;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 .main__simulacao .form .servicos {
   display: none;
@@ -1511,7 +1511,7 @@ main .slider .manual__navigation .manual-btn:hover {
     border-right: 1px solid rgba(200, 200, 200, 0.4);
     border-top: 1px solid #5a5a5a;
     border-left: 1px solid #5a5a5a;
-    color: #101820;
+    color: #fff;
     font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
@@ -1529,15 +1529,15 @@ main .slider .manual__navigation .manual-btn:hover {
     border-right: 1px solid rgba(200, 200, 200, 0.4);
     border-top: 1px solid #5a5a5a;
     border-left: 1px solid #5a5a5a;
-    color: #101820;
+    color: #fff;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 400;
   }
   .main__simulacao .form .itens input::-moz-placeholder {
-    color: #101820;
+    color: #fff;
   }
   .main__simulacao .form .itens input::placeholder {
-    color: #101820;
+    color: #fff;
   }
   .main__simulacao .form .itens textarea {
     resize: none;
@@ -1549,9 +1549,9 @@ main .slider .manual__navigation .manual-btn:hover {
     border-right: 1px solid rgba(200, 200, 200, 0.4);
     border-top: 1px solid #5a5a5a;
     border-left: 1px solid #5a5a5a;
-    color: #101820;
+    color: #fff;
     font-size: 0.8rem;
-    font-weight: 600;
+    font-weight: 400;
   }
   .main__simulacao .form .servicos {
     display: none;
@@ -1594,6 +1594,172 @@ main .slider .manual__navigation .manual-btn:hover {
     color: #fff;
   }
 }
+.section__contato {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 50px auto;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.section__contato .contato {
+  max-width: 400px;
+  padding: 20px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.section__contato .contato h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.section__contato .contato .info {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: flex-start;
+}
+.section__contato .contato .info .informacoes {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.section__contato .contato .info i {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #68a911;
+  border-radius: 50%;
+  padding: 20px;
+}
+.section__contato .contato .info p {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.section__contato .contato .info span {
+  font-weight: 600;
+}
+.section__contato .form {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #68a911, #84D916, #A5DF59);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+  border-radius: 20px;
+  gap: 20px;
+}
+.section__contato .form .itens {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.section__contato .form .itens button {
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+  border-right: 1px solid rgba(200, 200, 200, 0.4);
+  border-top: 1px solid #5a5a5a;
+  border-left: 1px solid #5a5a5a;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.section__contato .form .itens label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+.section__contato .form .itens input {
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+  border-right: 1px solid rgba(200, 200, 200, 0.4);
+  border-top: 1px solid #5a5a5a;
+  border-left: 1px solid #5a5a5a;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.section__contato .form .itens input::-moz-placeholder {
+  color: #fff;
+}
+.section__contato .form .itens input::placeholder {
+  color: #fff;
+}
+.section__contato .form .itens textarea {
+  resize: none;
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+  border-right: 1px solid rgba(200, 200, 200, 0.4);
+  border-top: 1px solid #5a5a5a;
+  border-left: 1px solid #5a5a5a;
+  color: #101820;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.section__contato .form .servicos {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+.section__contato .form .servicos button {
+  padding: 5px;
+  background-color: #fff;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.section__contato .form .servicos button:hover {
+  background-color: #68a911;
+  color: #fff;
+}
+.section__contato .form .btn-enviar {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #68a911;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: 0.5s;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+}
+.section__contato .form .btn-enviar:hover {
+  background-color: #101820;
+  color: #fff;
+}
+.section__contato iframe {
+  width: 1200px;
+  border-radius: 20px;
+  margin: 50px 0;
+}
+
 * {
   margin: 0;
   padding: 0;

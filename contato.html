@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Cred Fácil - Serviços</title>
+    <title>Cred Fácil - Contato</title>
 </head>
 
 <body>
@@ -65,22 +65,63 @@
         </section>
     </header>
 
-    <main>
-        <div class="servicos">
-            <!-- servico.js -->
+    <section class="section__contato">
+        <div class="contato">
+            <h1>Entre em contato conosco</h1>
+            <p>Retornaremos assim que possível!</p>
+            <div class="info">
+                <div class="informacoes telefone">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="info-content">
+                        <p>Telefone</p>
+                        <span>(11) 9999-9999</span>
+                    </div>
+                </div>
+                <div class="informacoes endereco">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="info-content">
+                        <p>Endereço</p>
+                        <span>São Paulo - SP</span>
+                    </div>
+                </div>
+                <div class="informacoes horario">
+                    <i class="fa-solid fa-clock"></i>
+                    <div class="info-content">
+                        <p>Horário de atendimento</p>
+                        <span>Seg - Sex: 08:00 - 18:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="itens">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="itens">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="Digite seu melhor Email" required>
+            </div>
+
+            <div class="itens">
+                <label for="assunto">Assunto</label>
+                <input id="assunto" type="text" name="assunto" placeholder="Assunto" required>
+            </div>
+
+            <div class="itens">
+                <label for="texto">Observações</label>
+                <textarea name="texto" id="texto" cols="30" rows="5"></textarea>
+            </div>
+
+            <input id="enviar" class="btn-enviar" type="submit" name="enviar" placeholder="Enviar">
         </div>
 
-        <section class="fifth__section">
-            <div class="fifth__section-all">
-                <div class="fifth__section-all-content">
-                    <h2>Precisa de nossos serviços?</h2>
-                    <p>Entre em contato com a nossa equipe
-                        especializada e faça uma simulação!</p>
-                </div>
-                <div class="fifth__section-all-link"><a href="simulacao.html">Simule agora</a></div>
-            </div>
-        </section>
-    </main>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.075426909091!2d-46.65381282380228!3d-23.565734361754576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1694872271780!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 
     <footer id="footer">
         <div class="footer__content">
@@ -145,8 +186,8 @@
             Desenvolvido por Esaki Desenvolvimentos.</span>
     </footer>
 
-    <script src="servicos.js"></script>
     <script src="menuBar.js"></script>
+    <script src="contato.js"></script>
 </body>
 
 </html>
