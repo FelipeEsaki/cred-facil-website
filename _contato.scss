@@ -8,6 +8,7 @@
     align-items: center;
 
     .contato {
+        margin: 0 20px;
         max-width: 400px;
         padding: 20px;
         height: 600px;
@@ -62,13 +63,14 @@
     }
 
     .form {
+        margin: 0 20px;
         width: 400px;
         height: 600px;
         display: flex;
         flex-direction: column;
         background: linear-gradient(to right, #68a911, #84D916, #A5DF59);
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        padding: 40px;
+        padding: 20px;
         border-radius: 20px;
         gap: 20px;
 

@@ -40,7 +40,7 @@
 }
 
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
     .servicos {
         margin: 0 auto;
         max-width: 1400px;
@@ -49,9 +49,9 @@
         flex-wrap: wrap;
 
         .servico {
-            margin: 20px;
+            margin: 10px;
             padding: 20px;
-            width: 40%;
+            width: 165px;
             height: 300px;
             display: flex;
             justify-content: center;
@@ -65,8 +65,8 @@
             cursor: pointer;
 
             img {
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 40px;
             }
 
             h2 {
